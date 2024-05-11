@@ -1,0 +1,6 @@
+- Read_data file is used for converting edf files to pickle file that includes dataframe with columns as Raw_EEG, Delta, Theta, Alpha, Sigma, Beta, Gamma1, Gamma2, hr, sao2, emg, eog_l, eog_r, airflow, sleep_stage. 
+- TDS file gives score(eeg signals vs hr/sao2/emg/eog/airflow) at each sleep stage for each patient as output.
+- CLSTM file gives file that shows directionality of edge between eeg and hr as output.
+- Network-CGC file is used for plotting the graphs.
+- calc file consists of necessary functions related to formatting, splitting, training and testing data.
+- imports file consists of all necessary statements to import libraries.
